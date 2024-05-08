@@ -151,7 +151,7 @@
                 <div class="services__item">
                     <div class="icon__box">
                         <img 
-                            src="img/paint-palette.png" alt="" 
+                            src="img/smartphone-call.png" alt="" 
                             class="services__icon"
                         />
                         <div class="services__dot">
@@ -159,7 +159,7 @@
                         </div>
                     </div>
 
-                    <h3 class="services__title text-lg">CREATIVE DESIGN</h3>
+                    <h3 class="services__title text-lg">MOBILE DEVELOPMENT</h3>
                     <p class="services_detail">
                         am an expert web designer and developer. Contrary to 
                         popular 
@@ -170,7 +170,7 @@
                 <div class="services__item">
                     <div class="icon__box">
                         <img 
-                            src="img/smartphone-call.png" alt="" 
+                            src="img/paint-palette.png" alt="" 
                             class="services__icon"
                         />
                         <div class="services__dot">
@@ -178,7 +178,7 @@
                         </div>
                     </div>
 
-                    <h3 class="services__title text-lg">RESPONSIVE DESIGN</h3>
+                    <h3 class="services__title text-lg">CREATIVE DESIGN</h3>
                     <p class="services_detail">
                         am an expert web designer and developer. Contrary to 
                         popular 
@@ -411,15 +411,22 @@
             <h2 class="section__title">Work_</h2>
 
             <div class="project__categories">
-                <button class="category__btn text-xs active-work">ALL</button>
-                <button class="category__btn text-xs">MOBILE APPS</button>
-                <button class="category__btn text-xs">WEB-SITES</button>
-                <button class="category__btn text-xs">LANDING PAGES</button>
+                <button class="category__btn text-xs active-work" 
+                data-filter="all">ALL</button>
+
+                <button class="category__btn text-xs"
+                data-filter=".app">MOBILE APPS</button>
+
+                <button class="category__btn text-xs"
+                data-filter=".web">WEB-SITES</button>
+
+                <button class="category__btn text-xs"
+                data-filter=".landing">LANDING PAGES</button>
             </div>
 
             <div class="projects__container grid">
 
-                <div class="project__item grid">
+                <div class="project__item grid mix app">
                     <img src="img/topCharts.png" alt="" 
                     class="project__img">
 
@@ -443,12 +450,12 @@
                             <li>Ionic</li>
                             <li>Capacitor</li>
                         </ul>
-                        <a href="https://www.canva.com/design/DAGCyutKBLA/K488hJGmbyUxVxqFgc_X5Q/view?utm_content=DAGCyutKBLA&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" class="project__link text-sm">Top Charts</a>
+                        <a href="https://www.canva.com/design/DAGCyutKBLA/K488hJGmbyUxVxqFgc_X5Q/view?utm_content=DAGCyutKBLA&utm_campaign=designshare&utm_medium=link&utm_source=editor" 
+                        target="_blank" class="project__link text-sm">Top Charts_</a>
                     </div>
                     </div>
-                </div>
 
-                <div class="project__item grid">
+                <div class="project__item grid mix web">
                     <img src="img/project-2.png" alt="" 
                     class="project__img">
 
@@ -473,7 +480,7 @@
                     </div>
                 </div>
 
-                <div class="project__item grid">
+                <div class="project__item grid mix landing">
                     <img src="img/project-3.png" alt="" 
                     class="project__img">
 
@@ -498,11 +505,12 @@
                     </div>
                 </div>
             </div>
-
         </section>
 
     </main>
 
+    <!--========== Mixitup ========== -->
+    <script src="js/mixitup.min.js" ></script>
     <!--========== JS ========== -->
     <script src="js/main.js"></script>
 
