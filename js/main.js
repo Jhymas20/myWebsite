@@ -7,3 +7,30 @@ let mixerProjects = mixitup('.projects__container', {
         duration: 300,
     }
 });
+
+
+/* Active work */
+
+const linkWork = document.querySelectorAll('.category__btn');
+
+function activeWork() {
+    linkWork.forEach((a) => a.classList.remove('active-work'));
+    this.classList.add('active-work');
+}
+
+linkWork.forEach((a) => a.addEventListener('click', activeWork));
+
+
+/*========== Testimonials Swiper  ==========*/
+var testiSwiper = new Swiper(".testimonial__container", {
+    loop: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    mousewheel: true,
+    keyboard: true,
+  });

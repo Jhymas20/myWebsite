@@ -561,4 +561,126 @@ input {
 }
 
 
-/* ========== 1:58:22 ========== */
+/* ========== Testimonials ========== */
+.testimonial__bg {
+    background: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+}
+
+.testimonial__bg::before{
+    content: '';
+    background: var(--linear-gradient);
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0; 
+}
+.testimonial__icon {
+    height: 88px;
+    width: 88px;
+    border-radius: 50%;
+    position: absolute;
+    top: -2.75rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--bg-color);
+    font-size: 1.75rem;
+    color:  var(--primary-color);
+    padding-top: 2.75rem;
+    text-align: center;
+}
+
+.testimonial__container {
+    padding-top: 5rem;
+    padding-bottom: 7.8rem;
+}
+
+.testimonial__item {
+    padding: 0 5.75rem;
+}
+
+.testimonial__description,
+.author__project,
+.author__name {
+    color: #fff;
+}
+
+.author__name {
+    text-transform: uppercase;
+    margin-bottom: 0.56em;
+    font-weight: 400;
+}
+
+.author__project {
+    font-style: italic;
+    opacity: 0.7;
+    margin-bottom: 1.25em;
+}
+
+.testimonial__description {
+    text-align: justify;
+}
+
+.ruler {
+    width: 100%;
+    height: 1px;
+    background-color: #a98a79;
+    margin-bottom: 1.25rem;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev::after{
+    content: '';
+}
+
+.swiper-button-next img,
+.swiper-button-prev img {
+    width: 20px;
+    height: 20px;
+}
+
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 3.25rem;
+}
+
+.swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #ffff;
+    opacity: 1;
+    margin: 0 3px !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #ffff;
+}
+
+/* ========== Blog ========== */
+.post__container {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.875rem;
+    margin-bottom: 2.5rem;
+}
+
+.post__img {
+    vertical-align: middle;
+}
+    
+.post__content{
+    border: 1px solid var(--border-color);
+    padding: 1.25rem 1.875rem 2.5rem 1.25rem;
+}
+
+.post__date {
+    text-transform: uppercase;
+    color: var(--text-color-alt);
+    margin-bottom: 0.8em;
+}
+
+.post__
+
+/* ========== 2:20:15 ========== */
