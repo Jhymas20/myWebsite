@@ -681,6 +681,12 @@ input {
     margin-bottom: 0.8em;
 }
 
-.post__
+.post__title {
+    margin-bottom: 1.1em;
+}
 
-/* ========== 2:20:15 ========== */
+.post__description {
+   color: var(--text-color-alt);
+   text-align: justify;
+}
+/* ========== 2:33:26 ========== */
