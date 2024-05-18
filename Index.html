@@ -653,7 +653,8 @@
                         <form action="" id="contact-form">
                             <div class="contact__input-div">
                                 <input 
-                                type="text" 
+                                type="text"
+                                name="name"
                                 placeholder="Your name" 
                                 class="contact__input"
                                 id="contact-name"
@@ -663,6 +664,7 @@
                             <div class="contact__input-div">
                                 <input 
                                 type="email" 
+                                name="email"
                                 placeholder="Your e-mail" 
                                 class="contact__input"
                                 id="contact-email"
@@ -671,6 +673,7 @@
 
                             <div class="contact__input-div">
                                 <textarea 
+                                name="message"
                                 placeholder="Type the message here" 
                                 class="contact__input textarea" 
                                 id="message" 
@@ -680,7 +683,6 @@
                             </div>
 
                             <p class="contact__message text-sm" id="contact-message">
-                                Message
                             </p>
 
                             <button type="submit" class="button contact__button">
