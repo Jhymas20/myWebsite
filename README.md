@@ -55,7 +55,7 @@ To set up the project locally, follow these steps:
 
 ## Usage
 
-You can view the website online at: [https://isoptera.lcsc.edu/~jchymas](https://isoptera.lcsc.edu/~jchymas)
+You can view the website online at: [https://isoptera.lcsc.edu/~jchymas/Index.html](https://isoptera.lcsc.edu/~jchymas/Index.html)
 
 To modify the site, edit the HTML, CSS, and JavaScript files in the project directory. Upload the updated files to the `public_html` directory on your server to reflect changes.
 
@@ -76,7 +76,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 You can reach me at:
-- Email: your-email@example.com
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
+- Email: jordanhymas24@gmail.com
+- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/jordan-hymas-85bb30307/)
 
 Thank you for visiting my portfolio website!
