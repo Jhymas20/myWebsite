@@ -8,9 +8,32 @@
         <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
 
         <!--========== CSS ========== -->
-        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/style.css"/>
+        <link rel="stylesheet" href="CSS/skins/color-1.css"/>
+        
 
-
+        <!--========== Skin Colors CSS ========== -->
+        <link 
+            rel="stylesheet" 
+            href="CSS/skins/color-1.css" 
+            class="alternate-style" 
+            title="color-1" 
+            disabled
+        />
+        <link 
+            rel="stylesheet" 
+            href="CSS/skins/color-2.css"
+            class="alternate-style"
+            title="color-2" 
+            disabled
+        />
+        <link 
+            rel="stylesheet" 
+            href="CSS/skins/color-3.css"
+            class="alternate-style"
+            title="color-3" 
+            disabled
+        />
 
         <title>Portfolio Website</title>
     </head>
@@ -18,7 +41,7 @@
         <!--========== Header ========== -->
         <header class="header" id="header">
             <nav class="nav container">
-                <div class="nav__menu" id="nav__menu">
+                <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li>
                             <a href="Index.html" class="nav__link">Home</a>
@@ -189,6 +212,18 @@
                 </div>
             </div>
         </section>
+
+        <!--========== Style Switcher ========== -->
+        <div class="style__switcher">
+            <div class="style__switcher-toggler">
+                <i class="ri-settings-4-line"></i>
+            </div>
+            <div class="colors">
+                <span class="color-1" onclick = "setActiveStyle('color-1')"></span>
+                <span class="color-2" onclick = "setActiveStyle('color-2')"></span>
+                <span class="color-3" onclick = "setActiveStyle('color-3')"></span>
+            </div>   
+        </div>
 
         <!--========== Email Js ========== -->
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>

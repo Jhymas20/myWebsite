@@ -8,13 +8,6 @@
     --header-height: 3.5rem;
 
     /* ========== Colors ========== */
-    --primary-color: #4a4a4a;
-    --priory-color-alt: #575757;
-    --linear-gradient: linear-gradient(
-    54deg, 
-    rgba(45, 45, 45, 0.95) 34%,
-    rgba(45, 45, 45, 0.95) 34%
-    );
     --title-color: #4a4a4a;
     --text-color: #555;
     --text-color-alt: #999;
@@ -332,8 +325,10 @@ input {
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
+    height: 52px;
+    width: 52px;
+    bottom: 115px; /* Place the button at the bottom of the page */
+    right: 0px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
@@ -343,10 +338,11 @@ input {
     padding: 15px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
     font-size: 18px; /* Increase font size */
+    text-align: center;
   }
   
   #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+    background-color: #2d2d2d; /* Add a dark-grey background on hover */
   }
 
 /* ========== HELLO ========== */
@@ -962,6 +958,67 @@ figcaption {
     opacity: 1;
 }
 
+/* ========== Style Switcher ========== */ 
+.style__switcher {
+    position: fixed;
+    right: 0;
+    bottom: 20%;
+    padding: 0.625rem;
+    box-shadow: 5px 1px 10px rgb(0, 0, 0, 0.4);
+    background-color: var(--bg-color);
+    z-index: 101;
+    transform: translateX(100%);
+    transition: 0.3s;
+}
+
+.open {
+    transform: translateX(0);
+}
+
+.style__switcher-toggler {
+    position: absolute;
+    height: 52px;
+    width: 52px;
+    background-color: #2d2d2d;
+    right: 100%;
+    top: 0;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.75rem;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.style__switcher-toggler:hover {
+    background-color: var(--bright-color); /* Add a dark-grey background on hover */
+    opacity: 1;
+  }
+
+.colors {
+    display: flex;
+    column-gap: 0.625rem;
+}
+
+.colors span {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 2px;
+}
+
+.color-1 {
+    background-color: #4a4a44;
+}
+
+.color-2 {
+    background-color: #6d56c1;
+}
+
+.color-3 {
+    background-color: #44b95d;
+}
+
 /* ========== BreakPoints ========== */
 /* for large devices */
 @media screen and (max-width:1200px) {
@@ -1165,5 +1222,6 @@ figcaption {
     }
 }
 
+  /* ========== 1:01:26 ========== */ 
 
-  /* ========== 1:01:26 ========== */
+  /* ========== 1:01:26 ========== */ 

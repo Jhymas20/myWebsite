@@ -15,8 +15,33 @@
 
     <!--========== CSS ========== -->
     <link rel="stylesheet" href="CSS/style.css">
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="CSS/skins/color-1.css"/>
+    
 
+    <!--========== Skin Colors CSS ========== -->
+    <link 
+        rel="stylesheet" 
+        href="CSS/skins/color-1.css" 
+        class="alternate-style" 
+        title="color-1" 
+        disabled
+    />
+    <link 
+        rel="stylesheet" 
+        href="CSS/skins/color-2.css"
+        class="alternate-style"
+        title="color-2" 
+        disabled/>
+
+    <link 
+        rel="stylesheet" 
+        href="CSS/skins/color-3.css"
+        class="alternate-style"
+        title="color-3" 
+        disabled/>
+
+
+    <title>Portfolio</title>
 </head>
 <body>
     <!--========== Header ========== -->
@@ -696,6 +721,18 @@
             </div>
         </section>
     </main>
+
+    <!--========== Style Switcher ========== -->
+    <div class="style__switcher">
+        <div class="style__switcher-toggler">
+            <i class="ri-settings-4-line"></i>
+        </div>
+        <div class="colors">
+            <span class="color-1" onclick = "setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick = "setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick = "setActiveStyle('color-3')"></span>
+        </div>   
+    </div>
 
     <!--========== Mixitup ========== -->
     <script src="js/mixitup.min.js" ></script>
