@@ -356,7 +356,7 @@ input {
 
 .button {
     display: inline-block;
-    background-color: var(--primary-color);
+    background-color: var(--bright-color);
     color: #fff;
     padding: 1.1em 2.1em;
     border-radius: 1.56rem;
@@ -365,7 +365,7 @@ input {
 }
 
 .button:hover {
-    background-color: var(--bright-color);
+    background-color: var(--primary-color);
 }
 
 .button--flex {
@@ -381,14 +381,14 @@ input {
 }
 
 .services__item {
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--bright-color);
     padding: 2.5rem 1.25rem 1.875rem;
     text-align: center;
     box-shadow: 0 0 27px rgb(0 0 0 / 24%);
 }
 
 .icon__box {
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--b);
     width: 82px;
     height: 82px;
     border-radius: 50%;
@@ -580,11 +580,12 @@ input {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    
 }
 
 .project__data {
     padding: 3rem 3rem 2.5rem 1.875rem;
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--bright-color);  /*Use to be --border-color*/
 }
 
 .project__title {
@@ -594,7 +595,7 @@ input {
 
 .project__description {
     margin-bottom: 2.5em;
-    text-align: justify;
+    text-align: justify; 
 }
 
 .project__stack{
@@ -729,6 +730,7 @@ input {
 
 .post__img {
     vertical-align: middle;
+    border: 1px solid var(--bright-color); 
 }
     
 .post__content{
@@ -906,6 +908,25 @@ input {
     color: var(--text-color);
 }
 
+.back__to-home:hover {
+    color: var(--bright-color);
+}
+
+.foward__to-post {
+    display: inline-flex;
+    column-gap: 0.6rem;
+    text-transform: uppercase;
+    color: var(--bright-color);
+    float: right;
+    width: 100px;
+    height: 52;
+    font-weight: bold;
+}
+.foward__to-post:hover {
+    color: var(--text-color)
+}
+
+
 .post__details-title {
     text-transform: uppercase;
     margin-top: 1.67em;
@@ -1016,7 +1037,7 @@ figcaption {
 }
 
 .color-3 {
-    background-color: #44b95d;
+    background-color: #9d3161;
 }
 
 /* ========== BreakPoints ========== */

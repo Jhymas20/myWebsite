@@ -1,9 +1,11 @@
 /*========== Active Link ==========*/
 const navlink = document.querySelectorAll('.nav__link');
 
+const nav = document.querySelectorAll('.nav__link');
+
 function activeLink() {
-    nav.forEach((a) => a.classList.remove('active-link'));
-    this.classList.add('active-link');
+  navlink.forEach((a) => a.classList.remove('active-link'));
+  this.classList.add('active-link');
 }
 
 navlink.forEach((a) => a.addEventListener('click', activeLink));

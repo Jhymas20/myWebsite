@@ -1,0 +1,137 @@
+
+
+
+Hello_
+    Hi: I am Junior Web developer able to build a Web presence from the ground up - from concept, 
+    navigation, layout and programming to UX and SEO. Skilled at writing well-designed, testable and 
+    efficient code using current best practices in Web development. Fast learner, hard worker and team
+    player who is proficient in an array of scripting languages and multimedia Web tools.
+
+    Photos: Update Photos!
+    Theme:
+
+Services_
+    :Change the titles of the services!
+    Web design:
+    Web development:
+    Mobile development:
+    Creative design:
+    Add Style: More hoovers over title maybe a highlighted background!
+    ?:
+
+Resume_
+    : Fill in more detail, for each job! 
+    :
+    :
+
+Portfolio_
+    New project ideas:
+    Add Projects:
+    Clean: Make the project image line up in the border use css border to l;ine up the image!
+
+Testimonial_
+    Ask Chanoe:
+    Ask Nina:
+    Ask Dad:
+
+Blog_
+    Right some blog post:
+    Add connection to muiltiple pages:
+    :
+
+Contact_
+    Make links hover!:
+    :
+    :
+
+Theme_
+    Add more colors:
+    Switcher: Change the themes of the switcher settings!
+    :
+
+Media_
+    Photos: Add new profile photo, add new media photos such as portfolio and blog!    
+    :
+    :
+
+
+
+
+Portfolio Ideas!
+
+
+Software Project Ideas:
+
+
+
+Hardware Project Ideas:
+
+Magic Mirror/ Smart Mirror
+
+A smart mirror combines a regular mirror with a display that shows useful information such as time, weather, calendar events, news, and more. The display is placed behind a two-way mirror, allowing the information to be visible through the mirror while retaining its reflective properties. This project involves assembling the hardware components and writing the software to display the desired information.
+
+Hardware Requirements
+Raspberry Pi (Model 3 or later recommended)
+Monitor (Size according to your preference)
+Two-Way Mirror (Acrylic or glass, sized to fit the monitor)
+Wooden Frame (To hold the mirror and monitor)
+HDMI Cable (To connect the Raspberry Pi to the monitor)
+Power Supply for Raspberry Pi
+MicroSD Card (With Raspbian OS installed)
+Keyboard and Mouse (For initial setup)
+Hardware Assembly Steps
+Prepare the Frame:
+
+Measure and cut the wooden frame to fit the size of the two-way mirror and the monitor.
+Assemble the frame using nails or screws.
+Mount the Monitor:
+
+Secure the monitor to the frame. Ensure that the screen is facing the two-way mirror.
+Make sure there is a small gap between the monitor and the mirror to prevent any direct contact.
+Install the Two-Way Mirror:
+
+Attach the two-way mirror to the frame in front of the monitor.
+Ensure the reflective side is facing outward.
+Connect the Raspberry Pi:
+
+Place the Raspberry Pi behind the monitor.
+Connect the Raspberry Pi to the monitor using the HDMI cable.
+Power the Raspberry Pi using its power supply.
+Software Setup
+Install Raspbian OS:
+
+Download the latest version of Raspbian OS from the Raspberry Pi website.
+Use tools like Balena Etcher to flash the Raspbian OS onto the MicroSD card.
+Insert the MicroSD card into the Raspberry Pi.
+Boot and Configure Raspberry Pi:
+
+Connect the Raspberry Pi to a keyboard, mouse, and monitor for initial setup.
+Boot up the Raspberry Pi and complete the setup process, including connecting to Wi-Fi and updating the system.
+Install MagicMirror²:
+
+Open the terminal on the Raspberry Pi.
+Install Git: sudo apt-get install git.
+Clone the MagicMirror² repository: git clone https://github.com/MichMich/MagicMirror.
+Navigate to the MagicMirror directory: cd MagicMirror.
+Install MagicMirror dependencies: npm install.
+Configure MagicMirror:
+
+Edit the configuration file: config/config.js.
+Customize the modules you want to display (time, weather, news, etc.).
+Save the configuration file.
+Run MagicMirror:
+
+Start the MagicMirror application: npm start.
+The display should now show the MagicMirror interface.
+Additional Features
+Voice Control:
+Install voice recognition software like Google Assistant SDK.
+Integrate with MagicMirror to control modules via voice commands.
+Touch Interaction:
+Use a touch screen monitor or add an IR touch frame to make the mirror interactive.
+Custom Modules:
+Develop custom modules for specific information or services using JavaScript.
+Troubleshooting Tips
+Ensure that the monitor and Raspberry Pi are properly connected and powered.
+Double-check the configuration file for any syntax errors.
+Use the MagicMirror forums and documentation for support with specific issues.

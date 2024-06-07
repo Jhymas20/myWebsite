@@ -1,9 +1,21 @@
 :root {
-    --bright-color: #ef311c;
-    --primary-color: #89daff;
-    --priory-color-alt: #7bce8d;
-    --linear-gradient: linear-gradient(
-    54deg, 
+    --bright-color: #eb8f12;
+    --primary-color: #d85148;
+    --priory-color-alt: #d85148cc;
+
+
+
+
+
     
-    #ef321ca6 24%, #89fffdd9);
+ /* Replace #RRGGBB with rgba(R, G, B, A) for each color */
+--linear-gradient: linear-gradient(
+    54deg, 
+    rgba(5, 25, 55, 0.8),     /* Color 1 with 80% opacity */
+    rgba(79, 41, 91, 0.8),    /* Color 2 with 80% opacity */
+    #9d3161cc,   /* Color 3 with 80% opacity */
+    #d85148cc,   /* Color 4 with 80% opacity */
+    #eb8f12cc   /* Color 5 with 80% opacity */
+    100%
+);
 }
