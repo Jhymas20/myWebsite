@@ -983,7 +983,7 @@ figcaption {
 .style__switcher {
     position: fixed;
     right: 0;
-    bottom: 20%;
+    bottom: 22%;
     padding: 0.625rem;
     box-shadow: 5px 1px 10px rgb(0, 0, 0, 0.4);
     background-color: var(--bg-color);
@@ -1033,11 +1033,15 @@ figcaption {
 }
 
 .color-2 {
-    background-color: #6d56c1;
+    background-color: #44b95d;
 }
 
 .color-3 {
-    background-color: #9d3161;
+    background-color: #eb8f12;
+}
+
+.color-4 {
+    background-color: #6dc7f5;
 }
 
 /* ========== BreakPoints ========== */

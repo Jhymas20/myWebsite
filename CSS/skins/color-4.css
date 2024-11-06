@@ -1,0 +1,14 @@
+:root {
+    --bright-color: #6dc7f5; /* Light blue */
+    --primary-color: #3a78d5; /* Medium blue */
+    --primary-color-alt: #2f5ba3; /* Darker blue */
+    --linear-gradient: linear-gradient(
+        54deg,
+        rgba(54, 83, 179, 0.95) 34%, /* Darker blue with opacity */
+        hsla(210, 34%, 71%, 0.95) /* Light blue with opacity */
+    );
+}
+
+.services__dot {
+    color: #6dc7f5; /* Light blue matching --bright-color */
+}
