@@ -34,11 +34,9 @@ This portfolio website is a personal project to display my professional achievem
 - **Git**: Version control.
 
 
-## Usage
+## Preview Site 
+- Link: https://isoptera.lcsc.edu/~jchymas/myWebsite/myWebsite/Index.html
 
-<!-- You can view the website online at: [https://isoptera.lcsc.edu/~jchymas/Index.html](https://isoptera.lcsc.edu/~jchymas/Index.html) -->
-
-To modify the site, edit the HTML, CSS, and JavaScript files in the project directory. Upload the updated files to the `public_html` directory on your server to reflect changes.
 
 
 ## License
