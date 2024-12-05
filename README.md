@@ -35,7 +35,7 @@ This portfolio website is a personal project to display my professional achievem
 
 
 ## Preview Site 
-- Link: https://isoptera.lcsc.edu/~jchymas/myWebsite/myWebsite/Index.html
+- Link: https://isoptera.lcsc.edu/~jchymas/myWebsite/
 
 
 
